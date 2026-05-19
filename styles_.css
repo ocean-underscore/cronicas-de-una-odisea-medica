@@ -1,0 +1,209 @@
+
+
+body{
+	min-height: 100vh;
+	margin: 75px;
+	display: grid;
+	grid-template-columns: 300px 1fr 300px;
+	grid-template-rows:auto auto 1fr auto;
+	row-gap: 10px;
+	column-gap:10px;
+	grid-template-areas:
+	"header header header"
+	"sidebar navbar sidebar2"
+	"sidebar main sidebar2"
+	"footer footer footer";
+	background-image: url('images/fondo3.gif');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size:100% 100% ;
+	
+	
+}
+nav{
+	top: 0;
+	grid-area: navbar;
+	background-color: powderblue;
+	padding: 1em;
+	
+}
+#lado{
+	grid-area: sidebar2;
+	align-self:start;
+	height: 150vh;
+	background-image: url('images/paper_texture.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size:100%100%;
+	border-style: double;
+	
+}
+
+aside{
+	height: 150vh;
+	grid-area: sidebar;
+	align-self:start;
+	background-image: url('images/paper_texture.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size:100%100%;
+	border-style: double;
+}
+main{
+	grid-area: main;
+	background-image: url('images/lined_paper.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size:cover ;
+	
+}
+footer{
+	grid-area: footer;
+	background-color: powderblue;
+	padding: 2em;
+	background-image: url('images/paper.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size:100% 100% ;
+	text-align: center;
+}
+header{
+	grid-area: header;
+	padding: 2em;
+	background-image: url('images/paper.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size:cover ;
+	
+	text-align: center;
+	font-size: 35px;
+}
+
+#div1{
+	
+  border-radius: 15px 50px 30px 5px;
+  background-color: powderblue;
+  padding: 20px;
+  width: 200px;
+  height: 1empx;
+}
+#me{
+	border-radius: 50%;
+	 position: sticky;
+	top: 0;
+	padding: 5px;
+	
+	
+	
+}
+.box{
+	
+	
+	
+}
+.box.active{
+	
+	
+}
+.menu{
+	display: grid;
+	grid-template-rows: 100px 100px;
+	grid-template-columns: 100px 100px;
+	gap: 2em;
+	margin: 20px;
+	align-self:center;
+	grid-template-areas:
+	"box-1 box-1"
+	"box-2 box-2"
+	"box-3 box-3";
+}
+
+.button{
+	
+}
+
+	
+
+#borderimg{
+	border:	10px solid transparent;
+	padding: 30px;
+	border-image:url('images/border.png') 30 round;
+	
+}
+
+.carousel{
+	margin: 5px auto;
+	width: 95%;
+	border: 5px solid red;
+	display: flex;
+	overflow: hidden;
+}
+
+.carousel::-webkit-scrollbar{
+	display: none;
+	gap: 1em;
+}
+.group{
+	will-change: transform;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	animation: spin 5s infinite linear;
+	padding-right: 1em;
+	
+}
+
+.card{
+	flex: 0 0 5em;
+	height: 5em;
+	padding: 1em;
+	background: cornflowerblue;
+	border-radius: .2em;
+	text-align: center;
+	align-content: center;
+	
+	
+}
+
+@keyframes spin{
+	0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+.p1 {
+	font-family:  "Lucida Console", "Courier New", monospace;
+	
+}
+.h1_2{
+	
+	font-family: 'Comic Sans MS', cursive;"
+	text-align: center;
+}
+
+#myDIV {
+  height:300pxfr;
+  display: grid;
+  grid-template-columns: 300px 1fr ;
+  gap: 20px;
+  background-color: #2196F3;
+  padding: 20px;
+  border: double;
+  border-color: blue;
+}
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+ 
+
+  height:1fr;
+}
+
+.item5 {
+  grid-column-end: span 2;
+}
