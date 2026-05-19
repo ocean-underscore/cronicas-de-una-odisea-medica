@@ -87,6 +87,22 @@ header{
   width: 200px;
   height: 1empx;
 }
+#div2{
+	
+  border-radius: 15px 50px 30px 5px;
+  background-color: powderblue;
+  padding: 20px;
+  width: 600px;
+  height: 1empx;
+}
+#div3{
+	
+  border-radius: 15px 50px 30px 5px;
+  background-color: powderblue;
+  padding: 20px;
+  width: 250px;
+  height: 1empx;
+}
 #me{
 	border-radius: 50%;
 	 position: sticky;
@@ -96,15 +112,7 @@ header{
 	
 	
 }
-.box{
-	
-	
-	
-}
-.box.active{
-	
-	
-}
+
 .menu{
 	display: grid;
 	grid-template-rows: 100px 100px;
@@ -118,10 +126,20 @@ header{
 	"box-3 box-3";
 }
 
-.button{
+#buttons{
+	display: grid;
+	grid-template-rows: 100px 100px;
+	grid-template-columns: 100px 100px;
+	gap: 2em;
+	margin: 20px;
+	align-self:center;
+	grid-template-areas:
+	"box-1 box-1"
+	"box-2 box-2";
+}
+	
 	
 }
-
 	
 
 #borderimg{
@@ -129,6 +147,10 @@ header{
 	padding: 30px;
 	border-image:url('images/border.png') 30 round;
 	
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .carousel{
@@ -166,6 +188,8 @@ header{
 	
 }
 
+
+
 @keyframes spin{
 	0% {
       transform: translateX(0);
@@ -183,6 +207,8 @@ header{
 	
 	font-family: 'Comic Sans MS', cursive;"
 	text-align: center;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 #myDIV {
