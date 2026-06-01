@@ -19,6 +19,12 @@ body{
 	background-size:100% 100% ;
 	
 	
+	
+}
+
+a:hover{
+	cursor:url('images/hover.gif'), auto;
+	
 }
 nav{
 	top: 0;
@@ -48,6 +54,7 @@ aside{
 	background-attachment: fixed; 
 	background-size:100%100%;
 	border-style: double;
+	cursor:url('images/cursor.png'), auto;
 }
 main{
 	grid-area: main;
@@ -55,6 +62,7 @@ main{
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-size:cover ;
+	cursor:url('images/cursor.png'), auto;
 	
 }
 footer{
@@ -66,6 +74,7 @@ footer{
 	background-attachment: fixed; 
 	background-size:100% 100% ;
 	text-align: center;
+	cursor:url('images/cursor.png'), auto;
 }
 header{
 	grid-area: header;
@@ -77,6 +86,7 @@ header{
 	
 	text-align: center;
 	font-size: 35px;
+	cursor:url('images/cursor.png'), auto;
 }
 
 #div1{
