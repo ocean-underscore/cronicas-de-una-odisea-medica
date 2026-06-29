@@ -20,3 +20,4 @@ btn_about.addEventListener('click',()=>{
 function mcfly() {
   alert("Alto ahí, mcfly!");
 }
+

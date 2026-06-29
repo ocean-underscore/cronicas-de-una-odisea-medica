@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	 <meta charset="UTF-8">
+	<link rel="stylesheet" href="styles_.css">
+	<link rel="stylesheet" href="calendar.css">
+	<script type="text/javascript" scr="java.js" defer>
+	function wii() {
+				let audio = new Audio(
+				'audios/WiiSports.mp3');
+				audio.play();
+				}
+	function mama() {
+				let audio = new Audio(
+				'audios/hola.ogg');
+				audio.play();
+				}
+	
+	
+	</script>
+		<title>1_6_2026</title>
+	<style>
+		input {
+		display: none;
+		}
+		img {
+		width: 100%;
+		margin-top:15px;
+		}
+		
+		.book {
+		display: flex;
+		}
+		#cover {
+		width: 400px;
+		height: 550px;
+		}
+		.flip-book {
+		width: 400px;
+		height: 550px;
+		position: relative;
+		perspective: 1500px;
+		}
+		.flip {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform-origin: center left;
+		transform-style: preserve-3d;
+		transition: 0.5s;
+		color: #000;
+		border-left: 1px dashed #f0f0f0;
+		}
+		.front {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: #fff;
+		box-sizing: border-box;
+		padding: 0 13px;
+
+		}
+		.back {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 99;
+		transform: rotateY(180deg);
+		backface-visibility: hidden;
+		background-color: #fff;
+		}
+		.next-btn {
+		position: absolute;
+		border: 2px solid black;
+		border-radius: 10px;
+		padding: 4px;
+		bottom: 13px;
+		right: 13px;
+		cursor: pointer;
+		color: #000;
+		}
+		.back-btn {
+		position: absolute;
+		border: 2px solid black;
+		border-radius: 10px;
+		padding: 4px;
+		bottom: 13px;
+		right: 13px;
+		cursor: pointer;
+		color: #000;
+		}
+		#p1 {
+		z-index: 5;
+		}
+		#p2 {
+		z-index: 4;
+		}
+		#p3 {
+		z-index: 3;
+		}
+		#p4 {
+		z-index: 2;
+		}
+		#p5 {
+		z-index: 1;
+		}
+		#c1:checked ~ .flip-book #p1 {
+		transform: rotateY(-180deg);
+		z-index: 1;
+		}
+		#c2:checked ~ .flip-book #p2 {
+		transform: rotateY(-180deg);
+		z-index: 2;
+		}
+		#c3:checked ~ .flip-book #p3 {
+		transform: rotateY(-180deg);
+		z-index: 3;
+		}
+		#c4:checked ~ .flip-book #p4 {
+		transform: rotateY(-180deg);
+		z-index: 4;
+		}
+		#c5:checked ~ .flip-book #p5 {
+		transform: rotateY(-180deg);
+		z-index: 5;
+		}
+
+		#c3:checked ~ .flip-book #p1 {
+		display: none;
+		}
+		#c4:checked ~ .flip-book #p2 {
+		display: none;
+		}
+		#c5:checked ~ .flip-book #p3 {
+		display: none;
+		}
+	</style>
+	</head>
+	
+	<body>
+	<header id="borderimg">
+	<a href="tituloeasteregg.html" style="text-decoration:none" class="url"> 
+	<h1 class="h1_2" )>CRÓNICA DE UNA ODISEA MÉDICA<h1>
+	</a>
+	</header>
+
+	<nav>
+	 <p></p> 
+	</nav>
+	<aside id="sidebar")>
+		<div>
+			<a href="calendario.html">
+				<image  src="images/calendar_button.png" alt= "botón calendario" style="width:250px;height:95px;margin:20px;padding:20px" title="Calendario">
+			</a>
+			<a href="cronicas de una odisea medica.html">
+				<image  src="images/info_button.png" alt= "info general" style="width:250px;height:95px;margin:20px;padding:20px" title="Info General">
+			</a>
+		</div>
+		
+		<div  id="div1" style="background-color: blueberry; margin: 20px;opacity:50%">
+			
+				<p class="p1">¡Hey ey ey! <br> ¡Aquí tienes los botones principales!<br><br>
+				</p>
+		</div>
+	</aside>
+	
+	<div id= "lado">
+	
+			<div id="div3" style="background-color: blueberry; margin: 20px">
+			<b>ÚLTIMAS ENTRADAS</b>
+			</div>
+			<a href="1_6_2026.html" style="text-decoration:none">
+			<p style="margin: 20px"> <b>- 1 de Junio. Cita en Medicina Interna</b></p>
+			</a>
+			<a href="18_5_2026.html" style="text-decoration:none">
+			<p style="margin: 20px"> <b>- 18 de mayo. <s>Cita en Medicina Interna</s></b></p>
+			</a>
+			
+		</div>
+		
+			
+	
+	
+	
+	</div>
+	
+	
+	<main  id="borderimg">		
+		<div style="margin: 90px;padding: 90px">
+		<h1 style="position=center">1 de Junio de 2026</h1>
+			
+			<div class="book">
+				<input type="checkbox" id="c1">
+				<input type="checkbox" id="c2">
+				<input type="checkbox" id="c3">
+				<input type="checkbox" id="c4">
+				<input type="checkbox" id="c5">
+
+				<div id="cover"></div>
+				<div class="flip-book">
+
+				<div class="flip" id="p1">
+				<div class="back" style="">
+
+				
+				
+				<label class="back-btn" for="c1">Volver</label>
+				</div>
+				<div class="front" style="height: 550px; width: 400px; background:white; color:white;">
+				<img src="images/portada_libreta.jpg">
+				
+				<label class="next-btn" for="c1" style="color:red;border:2px solid red;background:white;">ABRIR LIBRETA</label>
+				</div>
+				</div>
+
+				<div class="flip" id="p2">
+				<div class="back">
+
+				<img src="images/1-6-26/1_6_26.2.jpg">
+				
+				<label class="back-btn" for="c2">Volver</label>
+				</div>
+				<div class="front">
+
+				<img src="images/1-6-26/1_6_26.1.jpg">
+				
+				<label class="next-btn" for="c2">Siguiente</label>
+				</div>
+				</div> 
+
+				<div class="flip" id="p3">
+				<div class="back">
+
+				<img src="images/1-6-26/1_6_26.4.jpg">
+				
+				<label class="back-btn" for="c3">Volver</label>
+				</div>
+				<div class="front">
+
+				<img src="images/1-6-26/1_6_26.3.jpg" usemap="#wii">
+					<map name="wii">
+						<area shape="rect" coords= "286,447,100,315" onclick="wii()">
+						<area shape="rect" coords= "186,192,348,297" onclick="mama()">
+				<label class="next-btn" for="c3">Siguiente</label>
+				</div>
+				</div>
+
+				<div class="flip" id="p4">
+				<div class="back">
+
+				<img src="images/1-6-26/1_6_26.6.jpg">
+				
+				<label class="back-btn" for="c4">Volver</label>
+				</div>
+
+				<div class="front">
+
+					<img src="images/1-6-26/1_6_26.5.jpg">
+
+				<label class="next-btn" for="c4">Siguiente</label>
+				</div>
+				</div>
+
+				<div class="flip" id="p5">
+				<div class="back" style="color:white; background:white; ">
+				<img src="images/contraportada.jpg">
+				
+				<label class="back-btn" for="c5" style="color:white;border:1px solid white;">Volver</label>
+				</div>
+				<div class="front" style="height: 550px; width: 400px;">
+
+					<img src="images/1-6-26/1_6_26.7.jpg" usemap="#clicksalud">
+					
+						<map name="clicksalud">
+							<area shape="rect" coords="209,414,59,297" href="404_click salud.htm">
+						</map>
+				
+				<label class="next-btn" for="c5">Siguiente</label>
+				</div>
+				</div>
+
+				</div>
+				</div>
+				
+		</div>
+		
+		
+		
+	</main>
+	<footer>
+	<a href="https://notepad-plus-plus.org/">
+						<img src="buttons/notepad.gif" alt="made with notepad++" style="width:90px;height:30px;">
+					</a>
+	
+	<p> Mar García Vázquez 2026 - forever <br> Proyectos II</p>
+</body>
+	
+
+</html>

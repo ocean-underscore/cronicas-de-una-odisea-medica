@@ -5,18 +5,39 @@
 	<link rel="stylesheet" href="styles_.css">
 	<link rel="stylesheet" href="calendar.css">
 	<script type="text/javascript" scr="java.js" defer>
+	function play() {
+				let audio = new Audio(
+				'audios/punch.mp3');
+				audio.play();
+				}
+				
+				function hellothere() {
+				let audio = new Audio(
+				'audios/hello_there.mp3');
+				audio.play();
+				}
+				
+				function magic() {
+				let audio = new Audio(
+				'audios/magic.mp3');
+				audio.play();
+				}
+				function cling() {
+				let audio = new Audio(
+				'audios/magic.mp3');
+				audio.play();
+				}
 	
 	
 	
 	</script>
 		<title>página_principal</title>
-	
+	<style>  cursor:url('images/cursor.png') </style>
 	</head>
 	
 <body>
 	<header id="borderimg">
-	<a href="tituloeasteregg.html" style="text-decoration:none;
-      cursor:url('path-to-image.png');" class="url"> 
+	<a href="tituloeasteregg.html" style="text-decoration:none;" class="url"> 
 	<h1 class="h1_2" )>CRÓNICA DE UNA ODISEA MÉDICA<h1>
 	</a>
 	</header>
@@ -38,6 +59,11 @@
 				<p class="p1">¡Hey ey ey! <br> ¡Aquí tienes los botones principales!<br><br>
 				</p>
 		</div>
+		
+		<br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<a href="no_has_visto_nada.html"><image src="images/espagueti.png" style="weight:20px;height:20px;"> </a>
 	</aside>
 	
 	<div id= "lado">
@@ -45,9 +71,13 @@
 			<div id="div3" style="background-color: blueberry; margin: 20px">
 			<b>ÚLTIMAS ENTRADAS</b>
 			</div>
+			<a href="1_6_2026.html" style="text-decoration:none">
+			<p style="margin: 20px"> <b>- 1 de Junio. Cita en Medicina Interna</b></p>
+			</a>
 			<a href="18_5_2026.html" style="text-decoration:none">
 			<p style="margin: 20px"> <b>- 18 de mayo. Cita en Medicina Interna</b></p>
 			</a>
+			
 			
 		</div>
 		
@@ -59,10 +89,10 @@
 	
 	
 	<main  id="borderimg">
-		<image id="me" src="images/me.jpg" alt= "me uwu" style="float:right;width:300px;height:300px;margin:20px;" title="Hola! :D">
+		<image id="me" src="images/me.jpg" alt= "me uwu" style="float:right;width:300px;height:300px;margin:20px;" title="Hola! :D" onclick="hellothere()">
 		
-		<div style="margin: 20px;padding: 20px">
-			<h1>¡Bienvenide!</h1>
+		<div style="margin: 20px;padding: 20px;">
+			<h1 onclick="magic()">¡Bienvenide!</h1>
 	
 	
 			<div  id="div2">
@@ -70,7 +100,10 @@
 				de <p class="p1" title="En otras palabras: YO. así es, esto es autobiográfico, aunque refleje un problema estructural">una persona con dolor crónico en el sistema médico, </p> <p class="p1">y la odisea que puede suponer este proceso.<br><br>
 				Acompáñame a lo largo de estas páginas, y capaz si bicheas un poco encuentras algún que otro secreto ;D, pero que sabré yo, soy solo un texto escrito en HTML
 				</p>
-				
+				<audio src="audios/punch.mp3" id="click-sound" preload="auto" > </audio>
+				<button id="invisible" onclick="play()"> CLICK</button>
+				 
+			
 			</div>
 			
 	
@@ -86,6 +119,8 @@
 					</a>
 	
 	<p> Mar García Vázquez 2026 - forever <br> Proyectos II</p>
+	   
+	  
 </body>
 	
 
